@@ -1,4 +1,4 @@
-const API_KEY = "11a19584bbdacae1012f4b21d600bade";
+const API_KEY = "your_api_key";
 let newsData = [];
 let favoriteNews = JSON.parse(localStorage.getItem("favoriteNews")) || [];
 let loggedInUser = JSON.parse(localStorage.getItem("loggedInUser")) || {};
