@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.login-signup {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.login-signup h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 25px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.login-signup h2:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 2px;
+  background: #4CAF50;
+  border-radius: 2px;
+}
+
+.login-signup form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-signup input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #333;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.login-signup input:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.login-signup button {
+  background: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.login-signup button:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(76, 175, 80, 0.2);
+}
+
+.login-signup p {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+  font-size: 14px;
+}
+
+.login-signup p a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.login-signup p a:hover {
+  color: #45a049;
+  text-decoration: underline;
+}
+
+/* Specific styles for signup form */
+.preferences {
+  margin-top: 10px;
+}
+
+.preferences label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+}
+
+.preferences select {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #eee;
+  border-radius: 8px;
+  background-color: white;
+  min-height: 120px;
+  color: #333;
+}
+
+.preferences select:focus {
+  border-color: #4CAF50;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.preferences select option {
+  padding: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .login-signup {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
+/* Main content spacing */
+main {
+  min-height: calc(100vh - 200px);
+  padding: 20px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - वार्तावरण</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  </head>
+  <body style="background-image: url('images/background.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <header class="header">
+      <div class="logo">
+        <img src="images/Logo.png" alt="Logo" class="logo-img">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="login-signup">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+          <input type="text" id="firstName" placeholder="First Name" required />
+          <input type="text" id="lastName" placeholder="Last Name" required />
+          <input
+            type="email"
+            id="signupEmail"
+            placeholder="Enter your email"
+            required
+          />
+          <input type="date" id="birthdate" required />
+          <input
+            type="password"
+            id="signupPassword"
+            placeholder="Create a password"
+            required
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm password"
+            required
+          />
+
+          <button type="submit">Sign Up</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Log In</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="box">
+          <div class="left">
+            <div class="categories">
+              <p>Categories</p>
+              <div><a href="index.html#topNews">Top News</a></div>
+              <div><a href="index.html#techNews">Technology</a></div>
+              <div><a href="index.html#worldNews">World</a></div>
+              <div><a href="index.html#businessNews">Business</a></div>
+              <div><a href="index.html#politicsNews">Politics</a></div>
+              <div><a href="index.html#sportsNews">Sports</a></div>
+              <div><a href="index.html#entertainmentNews">Entertainment</a></div>
+            </div>
+            <div class="contactUs">
+              <div class="contact">
+                <p>Contact Us</p>
+                <div>Phone No. - <span>0123456789</span></div>
+                <div>Email - <span>abc@gmail.com</span></div>
+                <div>Address - <span>Mumbai, Maharashtra, India</span></div>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="newsletter">
+              <p>Subscribe to Our वार्तावरण</p>
+              <div class="email">
+                <input type="email" placeholder="Enter Your Email Here" />
+                <button>Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights">
+          <p>&copy; <script>document.write(new Date().getFullYear());</script> वार्तावरण. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/signup.js"></script>
+  </body>
+</html>
