@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = 'AIzaSyCvYkB0N1LLSvVCI3eRyycCRpYhsLUjHEw';
+const GEMINI_API_KEY = 'your_api_key';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
 async function fetchFullArticleContent(url) {
