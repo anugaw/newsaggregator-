@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 
-const GNEWS_API_KEY = "11a19584bbdacae1012f4b21d600bade";
+const GNEWS_API_KEY = "your_api_key";
 
 async function fetchNews(category = "general") {
   try {
