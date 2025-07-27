@@ -5,7 +5,7 @@ import traceback
 app = Flask(__name__)
 
 # Configure with your API key
-genai.configure(api_key="AIzaSyBVwLnLPButtUWUJlypGlaGRve1xyfWhkI")
+genai.configure(api_key="your_api_key")
 
 @app.route('/check-news', methods=['POST'])
 def check_news():
