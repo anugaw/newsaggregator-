@@ -1,5 +1,5 @@
 const API_KEY = "11a19584bbdacae1012f4b21d600bade";
-const GEMINI_API_KEY = 'AIzaSyBJKRTkkNkRq4R4v34q83qjbTA3UBS-3BQ';
+const GEMINI_API_KEY = 'your_api_key';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 let newsData = [];
 let favoriteNews = JSON.parse(localStorage.getItem("favoriteNews")) || [];
